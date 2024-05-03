@@ -3,3 +3,4 @@ pg_data/*
 *.tf
 .terraform.lock.hcl
 terraform.tfstate
+.terraform/
