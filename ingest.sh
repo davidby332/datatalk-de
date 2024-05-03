@@ -1,0 +1,1 @@
+python data_ingestion.py --user=postgres --password=postgres --host=postgres --port=5432 --database-name=ny_taxi --table-name=yellow_taxi_trips --data-location=yellow_taxi_data.parquet --data-url=https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet

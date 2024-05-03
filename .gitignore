@@ -1,0 +1,5 @@
+pg_data/*
+/.ipynb_checkpoints/
+*.tf
+.terraform.lock.hcl
+terraform.tfstate
