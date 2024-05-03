@@ -1,0 +1,7 @@
+Docker compose here sets up two containers one for PGAdmin and another postgres. They then expose these containers on port 5432.
+
+When you run the pgcli command you tell it which port to look for and then sees that there is a psotgres setup behind that port 
+and connects
+
+There is no point creating a network here since each container has their own. So once you've run docker compose use docker inspect
+on the container to find it. The host name is the container name (check with docker ps).
